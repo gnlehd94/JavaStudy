@@ -13,6 +13,10 @@ public class CompleteCalc extends Calculator {
 		else
 			return Calc.ERROR;
 	}
+	@Override
+	public int square(int num) {
+		return num * num;
+	}
 	
 	public void showInfo() {
 		System.out.println("Calc 인터페이스를 구현하였습니다.");
