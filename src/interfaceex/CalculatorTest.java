@@ -13,6 +13,7 @@ public class CalculatorTest {
 		System.out.println(calc.divide(num1, num2));
 		System.out.println(calc.square(num));
 		calc.showInfo();
+		calc.description();
 
 	}
 
